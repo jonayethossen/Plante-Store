@@ -3,7 +3,7 @@ import Container from "./Container"; // আপনার তৈরি রেস�
 
 export default function Footer() {
   const [currentTime, setCurrentTime] = useState(new Date());
-
+  const time = new Date();
   useEffect(() => {
     // প্রতি সেকেন্ডে সময় আপডেট করার জন্য টাইমার
     const timer = setInterval(() => {
